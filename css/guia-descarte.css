@@ -14,7 +14,7 @@
     font-size: 1.3rem;
     align-items: center;
     justify-content: center;
-    color: var(--cor03);
+    color: var(--verdeTextos);
     margin: 0 20px 0 20px;
 }
 
@@ -48,8 +48,8 @@ main{
 #div-centralizadora h1{
     font-size: 2rem;
     font-weight: bold;
-    color: var(--cor01);
-    font-family: var(--fontePrincipal), Arial, Helvetica, sans-serif;
+    color: var(--verdeBackground);
+    font-family: var(--fonteInter), Arial, Helvetica, sans-serif;
 }
 
 .topico-guia{
@@ -57,22 +57,22 @@ main{
     line-height: 125%;
     height: fit-content;
     padding: 10px 0px 10px;
-    border: 3px solid var(--cor01);
+    border: 3px solid var(--verdeTextos);
     border-radius: 10px;
 }
 
 .topico-guia h3{
     margin: 0px 0px 0px 10px;
     font-weight: bold;
-    font-family: var(--fontePrincipal), Arial, Helvetica, sans-serif;
+    font-family: var(--fonteInter), Arial, Helvetica, sans-serif;
 }
 
 .topico-guia p{
     width: 88%;
     font-size: 13px;
     font-weight: bolder;
-    font-family: var(--fontePrincipal), Arial, Helvetica, sans-serif;
-    color: var(--cor02);
+    font-family: var(--fonteInter), Arial, Helvetica, sans-serif;
+    color: var(--verdeBackground);
     margin: 5px 0px 0px 10px;
 }
 

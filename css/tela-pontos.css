@@ -1,18 +1,15 @@
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 /* Página locais de descarte */
-
 main{
     height: 800px;
     display: block;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
 #secao-pontos{
     padding-block: 50px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +26,7 @@ h3{
 .div-pontos{
     width: 90%;
     height: 150px;
-    border: 2px solid var(--cor04);
+    border: 2px solid var(--verdeTextos);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -38,13 +35,13 @@ h3{
 
 .div-pontos span{
     font-size: 6rem;
-    font-family: var(--fontePrincipal);
+    font-family: var(--fonteInter);
 }
 
 .div-pontos p{
     font-weight: 600;
     margin: 45px 0 0 0;
-    font-family: var(--fontePrincipal);
+    font-family: var(--fonteInter);
 }
 
 #mensagem-pontos{
@@ -53,13 +50,13 @@ h3{
 }
 
 #mensagem-pontos p{
-    font-family : var(--fontePrincipal);
+    font-family : var(--fonteInter);
     font-weight: bold;
-    color: var(--cor05);
+    color: var(--cinzaTextos);
 }
 
 #mensagem-pontos span{
-    color: var(--cor04);
+    color: var(--verdeTextos);
 }
 
 }
