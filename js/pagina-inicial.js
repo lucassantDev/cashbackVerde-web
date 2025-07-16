@@ -1,4 +1,7 @@
 // function loginGoogle(){
+
+const { Input } = require("postcss");
+
     
 // }
 
@@ -14,4 +17,19 @@ const cadastroRetornoPaginaInicial = document.getElementById('fazerCadastro-pagi
 
 cadastroRetornoPaginaInicial.addEventListener('click', () => {
     location = 'pagina-inicial.html';
+})
+
+
+// Página de cadastro -----------
+
+const botaoConcluirCadastro = document.getElementById('concluirCadastro');
+botaoConcluirCadastro.addEventListener('click', () => {
+
+    let nomeFormulario = document.getElementById('nomeUsuario');
+    let sobrenomeFormulario = document.getElementById('sobrenomeUsuario');
+    let cpfFormulario = document.getElementById('cpfUsuario');
+    let emailFormulario = document.getAnimations('emailUsuario')
+    if(nomeFormulario == '' || sobrenomeFormulario == ''|| emailFormulario == ''){
+        alert('Complete os campos!');
+    }
 })
