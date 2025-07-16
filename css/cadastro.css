@@ -1,0 +1,57 @@
+body{
+    display: none;
+}
+
+@media screen and (max-width: 650px ) {
+    body{
+        display: flex;
+        flex-direction: column;
+        font-family: var(--fonteInter);
+    }
+
+    #main-cadastro{
+        height: 600px;
+    }
+
+    #titulo-input-cadastro{
+        height: 400px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #titulo-input-cadastro h1{
+        color: var(--verdeTextos);
+        font-size: 2rem;
+        margin: 0 0 30px 0 ;
+    }
+
+    #titulo-input-cadastro button{
+        width: 150px;
+        padding: 10px;
+        margin: 15px 0 0 0;
+        border: 1px solid var(--verdeBackground);
+        color: var(--branco);
+        background-color: var(--verdeTextos);
+    }
+
+    #senha-login-cadastro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #senha-login-cadastro input{
+        scale: 1.4;
+        margin: 10px 0 10px 0;
+        padding: 6px;
+        border: 1px solid var(--verdeTextos);
+        border-radius: 10px;
+    }
+
+    #senha-login > input:focus{
+        border: none
+    }
+
+}
